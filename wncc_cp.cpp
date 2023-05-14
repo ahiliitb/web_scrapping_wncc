@@ -47,6 +47,7 @@ int main()
     vector<vector<int>> student_skills(n, vector<int>(5));
     // taking input of student skill
     cout<<"Enter roll no and skills of the student"<<endl;
+    // <-------------------roll number must have no spaces---------------->
     for (int i = 0; i < n; i++)
     {
         cin >> student_roll[i];
@@ -63,6 +64,7 @@ int main()
     // taking input of skills required for project
 
     cout<<"Enter name and required skill of the project"<<endl;
+    // <----------------------project name must have no spaces---------------------------------->
     for (int i = 0; i < m; i++)
     {
         cin >> project_name[i];
